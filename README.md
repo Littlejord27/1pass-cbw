@@ -6,4 +6,6 @@
 ```shell
 mkdir ~/Documents/1pass-cbw
 git clone https://github.com/jordan-cbw/1pass-cbw.git ~/Documents/1pass-cbw
+cd ~/Documents/1pass-cbw
+#./install.sh
 ```
