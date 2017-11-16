@@ -40,11 +40,9 @@ if [ "$#" -eq 1 ]
   if [ -f ~/.bashrc ]
    then
     echo "source ~/Documents/1pass-cbw/onepass.sh" >> ~/.bashrc
-    source ~/.bashrc
    elif [ -f ~/.zshrc ]
     then
      echo "source ~/Documents/1pass-cbw/onepass.sh" >> ~/.zshrc
-     source ~/.zshrc
    else
     echo "Can not find bashrc or zshrc to add to. Add ~/Documents/1pass-cbw/onepass.sh to your path terminal somehow."
   fi
